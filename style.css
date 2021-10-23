@@ -117,4 +117,7 @@ div#social-media p {
     html {
         font-size: 12px;
     }
+    body {
+        background-position: right 45vw bottom 25vh, left 45vw top 25vh;
+    }    
 }
