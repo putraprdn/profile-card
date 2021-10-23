@@ -32,6 +32,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: right 50vw bottom 40vh, left 50vw top 50vh;
     background-color: var(--Dark-cyan);
+    /* background-size: 100%; */
 }
 h1, p {
     font-size: 1.125rem;
@@ -45,8 +46,8 @@ p {
 }
 
 #main {
-    max-height: 50%;
-    width: 25%;
+    min-height: 40vh;
+    max-width: 80vw;
     display: flex;
     flex-direction: column;
     background: white;
@@ -54,7 +55,7 @@ p {
     border-radius: 15px;
 }
 .profile-pattern {
-    max-height: 5%;
+    max-height: 40vh;
     width: 100%;
 }
 
@@ -64,7 +65,8 @@ p {
     align-items: center; 
 }
 .profile-picture {
-    width: 30%;
+    position: absolute;
+    max-width: 7rem;
     height: auto;
     border-radius: 50%;
     border: 5px solid white;
@@ -75,7 +77,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 .desc-info {
     display: flex;
@@ -109,4 +111,10 @@ div#social-media p {
     margin-top: 0.5rem;
     font-size: 0.6rem;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 12px;
+    }
 }
