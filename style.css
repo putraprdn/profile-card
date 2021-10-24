@@ -53,6 +53,7 @@ p {
     background: white;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow: 0 35px 80px -18px var(--Dark-grayish-blue);
 }
 .profile-pattern {
     max-height: 40vh;
