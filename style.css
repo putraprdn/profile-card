@@ -45,7 +45,7 @@ p {
     color: var(--Dark-grayish-blue);
 }
 
-#main {
+.main {
     min-height: 40vh;
     max-width: 80vw;
     display: flex;
@@ -94,7 +94,7 @@ p {
     font-weight: 400;
 }
 
-#social-media {
+.social-media {
     margin-top: 1.625rem;
     padding: 1.5rem 3rem;
     display: flex;
@@ -107,7 +107,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-div#social-media p {
+div.social-media p {
     margin-top: 0.5rem;
     font-size: 0.6rem;
     letter-spacing: 2px;
